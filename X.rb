@@ -1,11 +1,12 @@
 require_relative './Numero'
 
-class I < Numero
-
+class X < Numero
+	
 	def initialize
-		@valor = 1
+		@valor = 10
 		@repeticoes = 3
-		@letra = "I"
+		@letra = "X"
 	end
 	
 end
+
